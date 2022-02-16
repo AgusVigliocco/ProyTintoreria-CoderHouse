@@ -10,13 +10,15 @@ body {
 
 /* banner */
 .banner {
-  background-image: url("imagenes/tinto-banner2.jpg");
+  background-image: url("../imagenes/tinto-banner2.jpg");
   background-position: bottom;
   background-size: cover;
   padding: 11rem;
 }
-.fondo-texto {
-  background: rgba(0, 0, 0, 0.295);
+
+.bannerText {
+  color: white;
+  text-align: center;
 }
 
 @media only screen and (min-width: 320px) {
