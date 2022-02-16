@@ -1,11 +1,11 @@
 body{
-  background: aliceblue;
+  background: rgb(227, 242, 255);
 }
 /* NAVBAR */
 
 /* banner */
 .banner {
-  background: url(/imagenes/tinto-banner2.jpg);
+  background-image: url(/imagenes/tinto-banner2.jpg) no-repeat bottom ;
   padding: 13rem;
   background-position: bottom;
   background-size: cover;
