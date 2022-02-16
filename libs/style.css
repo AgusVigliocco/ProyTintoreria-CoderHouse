@@ -23,7 +23,6 @@
   }
 }
 
-
 /* trabajos */
 
 .img-trab {
@@ -35,9 +34,30 @@
 }
 
 /* productos */
-
+.img-prod {
+  transition: 200ms;
+}
+.img-prod:hover {
+  filter: opacity(.5);
+  transform:scale(1.1);
+}
 
 /* footer */
-.img-footer{
+.img-footer, .img-footer2 {
   width: 5rem;
+  transition: 30ms;
+}
+
+.img-footer:hover {
+  transform: scale(1.01);
+  border-radius:  20%;
+  box-shadow: 0px 0px 10px 10px #e6af89;
+  
+}
+.img-footer2:hover {
+  transform: scale(1.01);
+  border-radius:  46%;
+  box-shadow: 0px 0px 10px 10px #e6af89;
+  
+
 }
