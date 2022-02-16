@@ -10,6 +10,9 @@ body{
   background-position: bottom;
   background-size: cover;
 }
+.fondo-texto {
+  background: rgba(0, 0, 0, 0.295);
+}
 
 @media only screen and (min-width: 320px) {
   .banner {
