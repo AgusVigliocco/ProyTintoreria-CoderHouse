@@ -1,0 +1,43 @@
+/* NAVBAR */
+
+/* banner */
+.banner {
+  background: url(/imagenes/tinto-banner2.jpg);
+  padding: 13rem;
+  background-position: bottom;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 320px) {
+  .banner {
+    background-size: cover;
+    padding: 7rem;
+  }
+}
+
+/* nosotros */
+
+@media only screen and (min-width: 320px) {
+  .row {
+    justify-content: center;
+  }
+}
+
+
+/* trabajos */
+
+.img-trab {
+  transition: 200ms;
+}
+
+.img-trab:hover {
+  transform: scale(1.05);
+}
+
+/* productos */
+
+
+/* footer */
+.img-footer{
+  width: 5rem;
+}
