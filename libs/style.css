@@ -5,7 +5,7 @@ body{
 
 /* banner */
 .banner {
-  background: url(/imagenes/tinto-banner2.jpg);
+  background: url(imagenes/tinto-banner2.jpg);
   padding: 13rem;
   background-position: bottom;
   background-size: cover;
