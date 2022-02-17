@@ -4,6 +4,7 @@
 }
 body {
   background: rgb(227, 242, 255);
+  font-family: "Gloria Hallelujah", cursive;
 }
 /* NAVBAR */
 
@@ -46,6 +47,11 @@ body {
 .img-prod:hover {
   filter: opacity(0.5);
   transform: scale(1.1);
+}
+
+/* solicitudes */
+.form-sus {
+  width: 30%;
 }
 /* footer */
 .img-footer,
