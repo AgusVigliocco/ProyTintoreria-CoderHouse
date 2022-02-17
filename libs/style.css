@@ -22,13 +22,13 @@ body {
   background-color: rgba(0, 0, 0, 0.205);
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 768px) {
   .banner {
     background-size: cover;
   }
 }
 /* nosotros */
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 768px) {
   .row {
     justify-content: center;
   }
@@ -52,7 +52,15 @@ body {
 /* solicitudes */
 .form-sus {
   width: 30%;
+  background: #e5e5e5;
 }
+
+@media only screen and (max-width: 768px) {
+  .form-sus {
+    width: 100%;
+  }
+}
+
 /* footer */
 .img-footer,
 .img-footer2 {
