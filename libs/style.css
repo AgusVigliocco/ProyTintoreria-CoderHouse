@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background: rgb(227, 242, 255);
 }
@@ -19,6 +18,7 @@ body {
 .bannerText {
   color: white;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.205);
 }
 
 @media only screen and (min-width: 320px) {
@@ -26,25 +26,19 @@ body {
     background-size: cover;
   }
 }
-
 /* nosotros */
-
 @media only screen and (min-width: 320px) {
   .row {
     justify-content: center;
   }
 }
-
 /* trabajos */
-
 .img-trab {
   transition: 200ms;
 }
-
 .img-trab:hover {
   transform: scale(1.05);
 }
-
 /* productos */
 .img-prod {
   transition: 200ms;
@@ -53,14 +47,12 @@ body {
   filter: opacity(0.5);
   transform: scale(1.1);
 }
-
 /* footer */
 .img-footer,
 .img-footer2 {
   width: 5rem;
   transition: 30ms;
 }
-
 .img-footer:hover {
   transform: scale(1.01);
   border-radius: 20%;
