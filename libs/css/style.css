@@ -8,6 +8,13 @@ body {
 }
 /* NAVBAR */
 
+/* .logo {
+  transition: 200ms;
+}
+.logo:hover {
+  transform: translateX(80px);
+} */
+
 /* banner */
 .banner {
   background-image: url("../imagenes/tinto-banner2.jpg");
