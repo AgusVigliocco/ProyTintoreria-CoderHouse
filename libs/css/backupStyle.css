@@ -35,6 +35,12 @@ body {
   }
 }
 /* nosotros */
+
+.carousel-inner {
+  display: flex;
+  text-align: -webkit-center;
+}
+
 @media only screen and (max-width: 768px) {
   .row {
     justify-content: center;

@@ -1,3 +1,10 @@
-
+/* comentario */
+header {
+  background: #000;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=style.css.map */
