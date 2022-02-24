@@ -1,11 +1,12 @@
 @import "../consigna/variables";
+
 .img-footer {
   width: 5rem;
   transition: 30ms;
   &:hover {
     transform: scale(1.01);
     border-radius: 20%;
-    box-shadow: 0px 0px 10px 10px #e6af89;
+    box-shadow: 0px 0px 10px 10px shadow;
   }
 }
 .img-footer2 {
@@ -14,7 +15,7 @@
   &:hover {
     transform: scale(1.01);
     border-radius: 46%;
-    box-shadow: 0px 0px 10px 10px #e6af89;
+    box-shadow: 0px 0px 10px 10px shadow;
   }
 }
 .secc-footer {
