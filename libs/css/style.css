@@ -1,3 +1,16 @@
+.banner {
+  background-image: url("../../imagenes/tinto-banner2.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding: 11rem;
+}
+
+.bannerText {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
 .img-footer {
   width: 5rem;
   transition: 30ms;
@@ -5,7 +18,7 @@
 .img-footer:hover {
   transform: scale(1.01);
   border-radius: 20%;
-  box-shadow: 0px 0px 10px 10px shadow;
+  box-shadow: 0px 0px 10px 10px #e6af89;
 }
 
 .img-footer2 {
@@ -15,7 +28,7 @@
 .img-footer2:hover {
   transform: scale(1.01);
   border-radius: 46%;
-  box-shadow: 0px 0px 10px 10px shadow;
+  box-shadow: 0px 0px 10px 10px #e6af89;
 }
 
 .secc-footer {
@@ -26,6 +39,36 @@
   transform: rotate(5deg);
   background: #e6b0896e;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    justify-content: center;
+  }
+}
+.img-prod {
+  transition: 200ms;
+}
+.img-prod:hover {
+  filter: opacity(0.5);
+  transform: scale(1.1);
+}
+
+.form-sus {
+  width: 30%;
+  background: #e5e5e5;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-sus {
+    width: 100%;
+  }
+}
+.img-trab {
+  transition: 200ms;
+}
+.img-trab:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=style.css.map */

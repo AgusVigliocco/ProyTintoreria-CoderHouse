@@ -1,0 +1,7 @@
+.img-prod {
+  transition: 200ms;
+  &:hover {
+    filter: opacity(0.5);
+    transform: scale(1.1);
+  }
+}
