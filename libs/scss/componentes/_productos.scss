@@ -1,7 +1,18 @@
+@import "../base/extends";
+@import "../base/listas";
 .img-prod {
   transition: 200ms;
   &:hover {
     filter: opacity(0.5);
     transform: scale(1.1);
   }
+}
+
+.img-productos {
+  @extend %imagenes;
+}
+
+.img-prod {
+  height: nth($tamaños, 9);
+  width: nth($tamaños, 9);
 }

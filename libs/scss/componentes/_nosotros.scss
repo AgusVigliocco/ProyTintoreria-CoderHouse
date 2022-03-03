@@ -1,5 +1,21 @@
+@import "../base/extends";
+@import "../base/listas";
+
 @media only screen and (max-width: 768px) {
   .row {
     justify-content: center;
   }
+}
+
+.titulo {
+  @extend%titulos;
+}
+
+.img-nosotros {
+  @extend%imagenes;
+}
+
+.img-nosotros {
+  height: nth($tamaños, 11);
+  width: nth($tamaños, 11);
 }
